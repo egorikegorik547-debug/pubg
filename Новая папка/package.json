@@ -1,8 +1,10 @@
 {
-  "name": "br-signal-server",
+  "name": "pubg-signaling-server",
   "version": "1.0.0",
-  "description": "Сигнальный сервер для мультиплеера Королевской битвы (WebRTC)",
+  "description": "Сигнальный сервер для WebRTC",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "engines": { "node": ">=16" }
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
 }
